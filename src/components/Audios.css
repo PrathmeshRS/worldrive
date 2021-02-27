@@ -1,0 +1,33 @@
+audio{
+    display: grid;
+}
+
+.audiofile{
+    background-color: white;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 12px;
+}
+
+.audio__meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.audio__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.audio__footer > a{
+    color: white;
+    text-decoration: none;
+    padding: 1px 4px;
+    background-color: black;
+    border-radius: 6px;
+}

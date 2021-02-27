@@ -1,0 +1,30 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.login__container > img{
+    margin-bottom: 5px;
+    object-fit: contain;
+    width: 200px; 
+}
+
+.login__container > h4{
+    padding: 0;
+    margin-bottom: 40px;
+    color: navy;
+    font-size: large;
+    font-weight: 900;
+}
+
+.login button:last-child {
+    margin-top:11px;
+}
