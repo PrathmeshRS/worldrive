@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/worldrive/static/media/earth.707eead1.png"
   },
   {
-    "revision": "e5d85cf68e4067d99301479a9aeb43d0",
+    "revision": "7b0b6e0bfb60c2a3e3d686a297abdfca",
     "url": "/worldrive/index.html"
   }
 ];
