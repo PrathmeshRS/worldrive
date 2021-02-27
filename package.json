@@ -1,5 +1,6 @@
 {
   "name": "powerdrive",
+  "homepage": "https://PrathmeshRS.github.io/worldrive",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,6 +19,7 @@
     "file-type": "^16.2.0",
     "firebase": "^8.2.9",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
     "ipfs-http-client": "^49.0.2",
     "locate-path": "^6.0.0",
@@ -30,6 +32,8 @@
     "ws": "^7.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
